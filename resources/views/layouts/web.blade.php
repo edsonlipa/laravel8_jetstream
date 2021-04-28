@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso platzi</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7GRJ9E1C0"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-C7GRJ9E1C0');
+    </script>
 </head>
 <body>
     <header class="shadow-lg">
